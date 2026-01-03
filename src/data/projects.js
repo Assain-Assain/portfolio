@@ -42,7 +42,7 @@ demo: 'https://rococo-sopapillas-8937da.netlify.app/',
     solution: "pr_detail.p_sollution",
    highlightsKey:"pr_detail.high_3",
     demo: '/',
-    repo: 'https://github.com/Assain-Assain/E-Commerce',
+    repo: 'https://github.com/Assain-Assain/portfolio',
   },
  
 ];
