@@ -1,0 +1,50 @@
+.contact-small {
+  padding: 32px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.contact-small h2 {
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+
+.contact-small p {
+  color: var(--muted);
+  margin-bottom: 16px;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.contact-links .btn {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.contact-links .btn:hover {
+  background: #5b21b6;
+}
+
+.contact-links .btn.secondary {
+  background: transparent;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+}
+
+.contact-links .btn.secondary:hover {
+  background: var(--accent);
+  color: #fff;
+}

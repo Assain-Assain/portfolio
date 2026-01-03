@@ -1,0 +1,102 @@
+/* Contact info block */
+.contact-info {
+  margin-top: 20px;
+  font-size: 0.95rem;
+}
+
+.contact-info p {
+  margin: 6px 0;
+}
+
+.contact-info a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+/* Contact section */
+.contact {
+  padding: 40px;
+  background: var(--card);
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  margin: 40px auto;
+  color: var(--fg);
+}
+
+.contact h2 {
+  margin-bottom: 12px;
+  color: var(--accent);
+  text-align: center;
+}
+
+.contact p {
+  margin-bottom: 20px;
+  color: var(--muted);
+  text-align: center;
+}
+
+/* Form styling */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: var(--fg);
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--fg);
+  font-size: 1rem;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: 2px solid var(--focus);
+  border-color: var(--focus);
+}
+
+/* Button styling */
+.btn.primary {
+  background: var(--accent);
+  border: none;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn.primary:hover {
+  background: #5b21b6; /* darker violet */
+}
+
+
+/* Responsive */
+@media (max-width: 720px) {
+  .contact {
+    padding: 24px;
+    margin: 20px;
+  }
+  .btn.primary {
+    width: 100%;
+    text-align: center;
+  }
+}
