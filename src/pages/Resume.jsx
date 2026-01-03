@@ -117,10 +117,14 @@ export default function Resume() {
       </div>
       <div className='download-block'>
           <h3>{t('resume.download')}</h3>
-          <br/>
-          <a className="btn primary" href="/Assain resume.pdf"  download="Assain-Resume.pdf">
-            {t('resume.downloadCta')}
-          </a></div>
+<br />
+<a
+  className="btn primary"
+  href={process.env.PUBLIC_URL + "/Assain-Resume.pdf"}
+  download="Assain-Resume.pdf"
+>
+  {t('resume.downloadCta')}
+</a></div>
     </section>
   );
 }
