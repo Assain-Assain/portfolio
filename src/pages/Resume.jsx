@@ -1,9 +1,11 @@
 import { useI18n } from '../i18n/i18n';
+import HomeContactus from './HomeContactus';
 
 export default function Resume() {
   const { t } = useI18n();
 
   return (
+    <>
     <section className="resume">
    <div className='name'>   <h1>{t('resume.title')}</h1>
       <h2>{t('resume.intro')}</h2></div>
@@ -126,5 +128,7 @@ export default function Resume() {
   {t('resume.downloadCta')}
 </a></div>
     </section>
+    <HomeContactus/>
+    </>
   );
 }

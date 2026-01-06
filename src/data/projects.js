@@ -15,7 +15,7 @@ export const projects = [
        "pr_detail.high_1",
       
     
-demo: 'https://rococo-sopapillas-8937da.netlify.app/',
+demo: 'netflix-clone-theta-three-96.vercel.app',
     repo: 'https://github.com/Assain-Assain/netflix-clone',
   },
   {
@@ -28,7 +28,7 @@ demo: 'https://rococo-sopapillas-8937da.netlify.app/',
     problem: "pr_detail.e_problem",
     solution: "pr_detail.e_sollution",
    highlightsKey: "pr_detail.high_2",
-    demo: 'https://shopperstyles.netlify.app/',
+    demo: 'e-commerce-ruby-zeta-83.vercel.app',
     repo: 'https://github.com/Assain-Assain/E-Commerce',
   },
   {

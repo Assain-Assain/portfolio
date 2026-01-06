@@ -18,6 +18,7 @@
   --focus: #0ea5e9;
 }
 
+
 * { box-sizing: border-box; }
 html, body, #root { height: 100%; }
 body {
