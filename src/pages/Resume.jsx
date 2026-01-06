@@ -122,7 +122,7 @@ export default function Resume() {
 <br />
 <a
   className="btn primary"
-  href={process.env.PUBLIC_URL + "/Assain-Resume.pdf"}
+  href={process.env.PUBLIC_URL + "/Assain-resume.pdf"}
   download="Assain-Resume.pdf"
 >
   {t('resume.downloadCta')}
